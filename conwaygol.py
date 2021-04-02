@@ -39,8 +39,6 @@ world = np.array([
     [0, 0, 0, 0, 0]
 ])
 
-world = world.ravel()
-
 while True:
     world = next_generation(world)
     print(world)
